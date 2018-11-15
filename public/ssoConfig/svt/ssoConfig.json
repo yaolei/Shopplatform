@@ -1,8 +1,0 @@
-{
-"client_id":"MDU4NGJkOTYtZGEzNy00",
-"response_type":"code2",
-"scope":"openid",
-"Authorization_Endpoint":"https://w3id-test.sso.ibm.com/isam/oidc/endpoint/amapp-runtime-oidcidp/authorize",
-"Token-EndPoint": "https://w3id-test.sso.ibm.com/isam/oidc/endpoint/amapp-runtime-oidcidp/token",
-"Introspection-EndPoint":"https://w3id-test.sso.ibm.com/isam/oidc/endpoint/amapp-runtime-oidcidp/introspect"
-}
