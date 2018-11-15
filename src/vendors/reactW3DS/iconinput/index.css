@@ -1,0 +1,50 @@
+.dealFilter{
+	text-align: center;
+	position: relative;
+	width: 15%;
+	color: #232323 !important;
+	float: left;
+	padding-bottom: 1%;
+}
+
+div input.ds-input {
+	padding-left: 29px;
+	padding-top: 2px !important;
+	border: solid 2px #555555;
+}
+
+div > span[data-value="icon-input"] {
+ 	display: block;
+    position: absolute;
+    z-index: 1;
+    color: #555;
+    cursor: pointer;
+    right: auto;
+	left: 40px;
+	top:13px;
+	margin-left: 0;
+}
+div > span[data-value="icon-query"] {
+ 	display: block;
+ 	font-family: IBMPlexSans;
+  	font-size: 17px;
+    position: absolute;
+    z-index: 1;
+    color: #555;
+    cursor: pointer;
+    right: auto;
+	/*left: 510px;*/
+	top:10px;
+	margin-left: 0;
+}
+.nullPadding {
+	padding: 0px;
+}
+
+.filterBorder {
+	border: unset !important;
+	cursor: pointer;
+}
+
+
+

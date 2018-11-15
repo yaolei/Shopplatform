@@ -1,0 +1,226 @@
+#module_roadmap_summary .ds-grid {
+    padding-left: 0;
+    padding-right: 0;
+}
+#col_roadmap_summary {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.narrow-row {
+    line-height: 50px;
+    font-size: 15px;
+}
+.narrow-expand-icon::before {
+    position: absolute;
+    margin-top: -11px;
+    color: #e7e7e7;
+    margin-left: 50%;
+    font-size: 22px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+@media (min-width: 0) {
+    #roadmap_summary .panel-title {
+        display: inline-block;
+        width: 300px;
+        font-size: 24px;
+        font-family: IBMPlexSans;
+        margin-left: 20px;
+        margin-top: 23.5px;
+        margin-bottom: 12.5px;
+    }
+}
+@media (min-width: 475px) {
+    #roadmap_summary .panel-title {
+        display: inline-block;
+        width: 300px;
+        font-size: 30px;
+        font-family: IBMPlexSans;
+        margin-left: 36px;
+        margin-top: 23.5px;
+        margin-bottom: 12.5px;
+    }
+}
+@media (min-width: 779px) {
+    #roadmap_summary .panel-title {
+        display: inline-block;
+        width: 300px;
+        font-size: 30px;
+        font-family: IBMPlexSans;
+        margin-left: 36px;
+        margin-top: 23.5px;
+        margin-bottom: 23.5px;
+    }
+}
+#roadmap_summary a {
+    font-weight: inherit;
+}
+#roadmap_summary .ds-panel-header {
+    color: #555555;
+}
+
+#roadmap_summary .ds-icon-size-default::before {
+    vertical-align: middle !important;
+}
+
+#roadmap_summary .ds-no-gutter {
+    padding-top: 0px !important;
+    cursor: pointer;
+}
+#roadmap_summary .ds-no-gutter:hover {
+    color:#555555;
+}
+
+#roadmap_summary .ds-panel-container {
+    padding: 0px;
+}
+#roadmap_summary .fixedDataTableLayout_main {
+    /*border: 0px !important;*/
+}
+
+#roadmap_summary .fixedDataTableCellLayout_main {
+    /*background-image: none !important;*/
+    background: #fdfdfd !important;
+    border: 0;
+}
+
+#roadmap_summary .public_fixedDataTable_scrollbarSpacer {
+    background: #fdfdfd !important;
+}
+#roadmap_summary .public_fixedDataTableCell_cellContent {
+    font-size: 13px !important;
+    line-height: 32px;
+}
+
+#roadmap_summary .fixedDataTableLayout_header .public_fixedDataTableCell_cellContent {
+    text-align: center !important;
+    font-weight: normal !important;
+    color: #555555 !important;
+}
+
+#roadmap_summary .cellGrayText {
+    color: #000000 !important;
+}
+
+#roadmap_summary .cellBreakout{
+    border-bottom: 1px solid #d1d1d1;
+}
+
+#roadmap_summary .cellNumber{
+    border-bottom: 1px solid #d1d1d1;
+}
+
+#roadmap_summary .fixedDataTableCellLayout_wrap1,
+#roadmap_summary .fixedDataTableCellLayout_wrap2,
+#roadmap_summary .fixedDataTableCellLayout_wrap3,
+#roadmap_summary .public_fixedDataTableCell_cellContent{
+    display: inline-block;
+    width: 100%;
+}
+
+#roadmap_summary .fixedDataTableCellLayout_columnResizerContainer {
+    width: 2px;
+    background: #d1d1d1;
+}
+
+#roadmap_summary .ellipsis {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 100%;
+    display: inline-block;
+}
+
+@media (min-width: 0px) {
+    .rs-drop-title {
+        display: inline-block;
+        font-family: IBMPlexSans;
+        margin-top: 0px;
+        margin-bottom: 13px;
+        padding:0px !important;
+        padding: 0px 29px 0px 29px!important;
+        max-width: 100%;
+    }
+}
+@media (min-width: 475px) {
+    .rs-drop-title {
+        display: inline-block;
+        font-family: IBMPlexSans;
+        margin-bottom: 13px;
+        padding: 0px 45px 0px 45px!important;
+        max-width: 100%;
+
+    }
+}
+
+@media (min-width: 779px) {
+    .rs-drop-title {
+        display: inline-block;
+        font-family: IBMPlexSans;
+        margin-top: 26px;
+        margin-bottom: 13px;
+        padding: 0px 0px 0px 45px!important;
+        max-width: 100%;
+
+    }
+}
+
+.rs-drop {
+    font-size: 13px !important;
+    font-weight: normal !important;
+    border: solid 2px #878b8d !important;
+    height: 39px !important;
+    padding: 10px 0px !important;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.rs-dropdown-option {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+
+    font-size:13px;
+    padding: .3rem 1.03rem .4rem 1.03rem !important;
+    list-style:none;
+    text-align: left;
+    font-family: IBMPlexSans;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 0.3px;
+    text-align: left;
+    color: #00598a;
+    cursor: pointer;
+
+}
+.rs-dropdown-option:hover {
+    background: #e5e5e5;
+}
+
+.rs-dropdown-options {
+    max-height: 350px;
+    border-width: 2px;
+    max-width: 100% !important;
+}
+#rs-title {
+    padding-left: 0.8rem !important;
+    padding-right: 1.0rem !important;
+}
+.rs-noValue {
+    font-size: 13px;
+}
+.divDerLine:hover {
+    text-decoration: underline;
+}
+.divDerLine {
+    text-decoration: none;
+}
+#roadmap_summary .roadmapSummary_breakoutDropDown {
+    padding-left: 0px;
+    padding-right: 0px;
+}

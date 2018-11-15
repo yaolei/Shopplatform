@@ -1,0 +1,67 @@
+#hideColumn{
+    display: inline-block;
+}
+#hideColumn .hideIcon{
+    cursor: pointer;
+    width: 1.9rem;
+    height: 1.9rem;
+    border-radius: 2px;
+}
+
+#hideColumn .hideIcon.show {
+    background-color: #004065;
+}
+
+#hideColumn .hideIcon.hide {
+    background-color: #fdfdfd;
+}
+
+#hideColumn .settingIcon.show {
+    color: #fdfdfd;
+}
+
+#hideColumn .settingIcon.hide {
+    color: inherit;
+}
+
+#hideColumn .ds-icon-size-default::before {
+    font-size: 17px !important;
+}
+
+.columnNames{
+    position:absolute;
+    border: 1px solid #d1d1d1;
+    z-index:999;
+    color: #555555;
+    background-color: #fdfdfd;
+    box-shadow: 0px 1px 3px 0px #d1d1d1;
+    width: 14rem;
+    height: 16rem;
+    top: 45px;
+    right:13px;
+    padding: 10px 20px 0px 20px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    .columnTitle{
+        cursor: pointer;
+    }
+}
+
+.columnNames .ds-input-checkbox {
+    text-transform: none !important;
+    font-size: 16px !important;
+}
+.columnNames .ds-input-checkbox .ds-input-control {
+    height: 23px;
+    width: 23px;
+    margin-bottom: 8px;
+}
+
+.columnNames .ds-input-checkbox .ds-input-control::before {
+    left: 30% !important;
+    top: 0 !important;
+}
+.columnNames .ds-input-checkbox span {
+    margin-top: 2px;
+    margin-left: 10px;
+}
